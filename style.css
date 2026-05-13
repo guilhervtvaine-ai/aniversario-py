@@ -66,10 +66,10 @@ body {
     align-items: center;
 }
 .content .left{
-    width: 40%;
+    width: 80%;
 }
 .content .right{
-    width: 60%;
+    width: 70%;
 }
 .left .btn{
     transform: scale(0);
@@ -122,7 +122,7 @@ body {
 }
 .title{
     position: relative;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     font-family: "Titan One", sans-serif;
@@ -131,7 +131,7 @@ body {
     perspective: 1000px;
 }
 .title .happy, .title .birthday{
-    position: relative;
+    position: center;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
                 4px -4px var(--color-black), 
@@ -163,7 +163,7 @@ body {
 
 .title .hat{
     position: absolute;
-    right: 45px;
+    right: 85px;
     top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
